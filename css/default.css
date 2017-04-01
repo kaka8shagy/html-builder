@@ -1,0 +1,49 @@
+.clearfix {
+	clear: both;
+}
+.clearfix:after, .clearfix:before {
+	content: '';
+	display: table;
+	clear: both;
+}
+.nm {
+	margin: 0;
+}
+.np {
+	padding: 0;
+}
+.nmp {
+	margin: 0;
+	padding: 0;
+}
+.ttu {
+	text-transform: uppercase;
+}
+.ttl {
+	text-transform: lowercase;
+}
+.ttc {
+	text-transform: capitalize;
+}
+.tal {
+	text-align: left;
+}
+.tar {
+	text-align: right;
+}
+.tac {
+	text-align: center;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+	float: left;
+	padding: 0 5px;
+}
+.col-12 {
+	width: 100%;
+}
